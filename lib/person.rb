@@ -29,8 +29,8 @@ class Person
     else 
     @hygiene = value
   end
-    
   end
+  
   def clean(hygiene)
     @hygiene > 7
   end

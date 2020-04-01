@@ -60,6 +60,7 @@ class Person
     self.happiness += 3
     person.happiness += 3
     "Hi #{person.name}! It's #{self.name}. How are you?"
+  end
   
   
 end 

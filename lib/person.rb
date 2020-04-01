@@ -35,5 +35,9 @@ class Person
     happiness > 7 ? true : false
   end
   
+  def clean?
+    hygiene > 7 ? true : false
+  end 
+  
   
 end 

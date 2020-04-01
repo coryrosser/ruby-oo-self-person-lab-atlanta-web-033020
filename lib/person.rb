@@ -30,7 +30,7 @@ class Person
     @hygiene = value
   end
   end
-  def happy?(happiness)
+  def happy(happiness)
     if @happiness > 7
       return true 
     else 

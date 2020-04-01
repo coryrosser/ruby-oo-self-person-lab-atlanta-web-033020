@@ -31,12 +31,8 @@ class Person
   end
   end
   
-  def happy?(happiness)
-    if happiness > 7
-      return true 
-    else 
-      return false 
-    end
+  def happy?
+    happiness > 7 ? true : false
   end
   
   

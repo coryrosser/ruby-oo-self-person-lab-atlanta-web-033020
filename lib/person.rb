@@ -18,8 +18,7 @@ class Person
       @happiness = 0 
     else 
       @happiness = value
-    end 
-    @happiness
+    end
   end
   
   def hygiene=(value)

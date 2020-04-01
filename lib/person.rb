@@ -1,7 +1,7 @@
 # your code goes here
 
 class Person 
-  attr_reader :name
+  attr_reader :name, :happiness, :hygiene
   attr_accessor :bank_account
   
   def initialize(name)
@@ -28,6 +28,7 @@ class Person
       @hygiene = 0 
     else 
     @hygiene = value
+  end
     
   end
   def clean(hygiene)

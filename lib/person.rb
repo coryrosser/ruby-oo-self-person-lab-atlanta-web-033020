@@ -30,10 +30,10 @@ class Person
     @hygiene = value
   end
   end
-  def happy(happiness)
+  def happy?(happiness)
     @happiness > 7
   end
-  def clean(hygiene)
+  def clean?(hygiene)
     @hygiene > 7
   end
   
